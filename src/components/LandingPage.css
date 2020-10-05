@@ -1,0 +1,131 @@
+
+.hero-container {
+  background-image: url("/images/1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+
+.hero-shadow {
+  background-color: rgba(0, 0, 0, 0.35);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  object-fit: contain;
+  height: 100%;
+}
+
+.hero-shadow > h1 {
+  color: #fff;
+  font-size: 4.4rem;
+}
+
+.hero-shadow > p {
+  margin-top: 8px;
+  color: #fff;
+  font-size: 2.35rem;
+}
+
+.hero-btns {
+  margin-top: 32px;
+}
+
+.hero-btns .btn {
+  margin: 6px;
+}
+
+.fa-play-circle {
+  margin-left: 4px;
+}
+
+.landingPage--button {
+  width: 215px;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  border: 1px solid white;
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  text-decoration: none;
+}
+
+.landingPage--button:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  color: black;
+
+}
+
+@media screen and (max-width: 960px) {
+  .hero-shadow > h1 {
+    font-size: 3.5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero-shadow > h1 {
+    font-size: 3.5rem;
+  }
+
+  .hero-shadow > p {
+    font-size: 2.3rem;
+  }
+
+  .btn-mobile {
+    display: block;
+    text-decoration: none;
+  }
+
+  .btn {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  .hero-shadow > h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero-shadow > p {
+    font-size: 1.6rem;
+  }
+
+}
+
+@media screen and (max-width: 500px) {
+  .hero-shadow > h1 {
+    font-size: 2.1rem;
+  }
+
+  .hero-shadow > p {
+    font-size: 1.3rem;
+  }
+
+}
+
+@media screen and (max-width: 415px) {
+  .hero-shadow > h1 {
+    font-size: 1.9rem;
+  }
+
+  .hero-shadow > p {
+    font-size: 1.1rem;
+  }
+
+}
+
+@media screen and (max-width: 334px) {
+  .hero-shadow > h1 {
+    font-size: 1.5rem;
+  }
+
+  .hero-shadow > p {
+    font-size: 1.0rem;
+  }
+
+}
+

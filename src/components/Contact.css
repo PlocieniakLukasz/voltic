@@ -1,0 +1,67 @@
+.contact {
+  min-height: 100vh;
+  background-image: url("/images/about-us.jpg");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.contact-wrapper {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.35);
+  padding: 100px 0px 50px 0px;
+}
+
+.contact-text {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  min-width: 30vw;
+  text-align: center;
+  font-size: 1.5rem;
+  text-align: justify;
+  line-height: 37px;
+  background-color: rgba(255, 255, 255, 0.11);
+  padding: 80px 0px 80px 0px;
+}
+
+.contact-description {
+  padding: 60px 0px 60px 0px;
+}
+
+.contact-title {
+  text-align: center;
+  font-size: 2.5rem;
+  padding: 0px 30px;
+}
+
+@media screen and (max-width: 420px) {
+  .contact-title {
+    font-size: 1.7rem;
+  }
+  .contact-text {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .contact-title {
+    font-size: 1.5rem;
+  }
+  .contact-text {
+    font-size: 1.0rem;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .contact-title {
+    font-size: 1.4rem;
+  }
+  .contact-text {
+    font-size: 1.2rem;
+  }
+}
