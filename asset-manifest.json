@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/voltic/static/css/main.e4e40702.chunk.css",
+    "main.js": "/voltic/static/js/main.40c22e45.chunk.js",
+    "main.js.map": "/voltic/static/js/main.40c22e45.chunk.js.map",
+    "runtime-main.js": "/voltic/static/js/runtime-main.32f5e762.js",
+    "runtime-main.js.map": "/voltic/static/js/runtime-main.32f5e762.js.map",
+    "static/js/2.c317853a.chunk.js": "/voltic/static/js/2.c317853a.chunk.js",
+    "static/js/2.c317853a.chunk.js.map": "/voltic/static/js/2.c317853a.chunk.js.map",
+    "index.html": "/voltic/index.html",
+    "precache-manifest.3552d8bd294a5fe850ea9b27a655041b.js": "/voltic/precache-manifest.3552d8bd294a5fe850ea9b27a655041b.js",
+    "service-worker.js": "/voltic/service-worker.js",
+    "static/css/main.e4e40702.chunk.css.map": "/voltic/static/css/main.e4e40702.chunk.css.map",
+    "static/js/2.c317853a.chunk.js.LICENSE.txt": "/voltic/static/js/2.c317853a.chunk.js.LICENSE.txt",
+    "static/media/logo.png": "/voltic/static/media/logo.c650bc8c.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.32f5e762.js",
+    "static/js/2.c317853a.chunk.js",
+    "static/css/main.e4e40702.chunk.css",
+    "static/js/main.40c22e45.chunk.js"
+  ]
+}
