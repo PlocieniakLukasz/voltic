@@ -12,7 +12,7 @@ import Kompensacja from "./components/pages/Kompensacja";
 
 function App() {
   return (
-    <>
+    <div>
       <Router>
         <Switch>
           <Route path="/" exact component={Home} />
@@ -25,7 +25,7 @@ function App() {
           <Route path="/kompensacja-mocy" component={Kompensacja} />
         </Switch>
       </Router>
-    </>
+    </div>
   );
 }
 
